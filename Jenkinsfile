@@ -100,6 +100,5 @@ stage('Plot Code Coverage Report') {
     build job: 'ansible-config-mgt/main', parameters: [[$class: 'StringParameterValue', name: 'env', value: 'dev']], propagate: false, wait: true
     }
   } 
-
 }
 }
